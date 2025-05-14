@@ -8,7 +8,7 @@
     <persistence-unit name="postgres" transaction-type="RESOURCE_LOCAL">
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" /> <!-- DB Driver -->
-            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/onetoone" /> <!-- DB Name -->
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/car_rental_system" /> <!-- DB Name -->
             <property name="javax.persistence.jdbc.user" value="postgres" /> <!-- DB User -->
             <property name="javax.persistence.jdbc.password" value="tiger" /> <!-- DB Password -->
 	    	<property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/> <!-- DB Dialect -->

@@ -11,7 +11,6 @@ import javax.persistence.SequenceGenerator;
 @Entity
 public class Car {
 	@Id
-//	@GeneratedValue(strategy = GenerationType.AUTO) // Ids not coming in sequence
 	@GeneratedValue(strategy = GenerationType.IDENTITY, generator = "car_id")
 	@SequenceGenerator(name="car_id",initialValue=100,allocationSize=1)
 	private int id;
